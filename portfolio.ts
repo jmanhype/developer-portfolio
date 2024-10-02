@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   title: "Hi all, I'm Straughter",
   description:
     "Versatile and self-driven professional with extensive experience in AI architecture and full-stack software development. Expert in creating RAG pipelines, generative AI applications, and ETL pipelines for SMEs.",
-  resumeLink: "https://bit.ly/4aRSGPh",
+  resumeLink: "https://bit.ly/4etYpMV",
 };
 
 export const openSource = {
