@@ -12,39 +12,39 @@ import {
 } from "./types/sections";
 
 export const greetings: GreetingsType = {
-  name: "Hanzla Tauqeer",
-  title: "Hi all, I'm Hanzla",
+  name: "Straughter Guthrie",
+  title: "Hi all, I'm Straughter",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
-  resumeLink: "#",
+    "Versatile and self-driven professional with extensive experience in AI architecture and full-stack software development. Expert in creating RAG pipelines, generative AI applications, and ETL pipelines for SMEs.",
+  resumeLink: "https://bit.ly/4aRSGPh",
 };
 
 export const openSource = {
-  githubUserName: "1hanzla100",
+  githubUserName: "jmanhype",
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:hanzla.tauqeer123@gmail.com",
-  linkedin: "https://www.linkedin.com/in/1hanzla100/",
-  github: "https://github.com/1hanzla100",
-  instagram: "https://www.instagram.com/__hanzla100",
+  email: "mailto:straughterguthrie.guthrie@namastex.io",
+  linkedin: "https://www.linkedin.com/in/straughter-guthrie-98ba0535/",
+  github: "https://github.com/jmanhype",
+  // instagram: "https://www.instagram.com/__hanzla100",
   // facebook: 'https://www.facebook.com/1hanzla100',
-  // twitter: 'https://twitter.com/1hanzla100',
+  twitter: 'https://twitter.com/StraughterG',
 };
 
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "A PROFOUND DEVELOPER DEDICATED TO LEVERAGING AI AND FULL-STACK TECHNOLOGIES",
   data: [
     {
-      title: "Full Stack Development",
+      title: "Programming & Development",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
         emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
-        emoji("⚡ Building responsive static websites using Next.js"),
-        emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
+        emoji("⚡ Develop highly interactive front-end/user interfaces for your web and mobile applications"),
+        emoji("⚡ Integration of third-party services such as AWS/Azure"),
       ],
       softwareSkills: [
         {
@@ -72,8 +72,8 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "logos:aws",
         },
         {
-          skillName: "Heroku",
-          iconifyTag: "logos:heroku-icon",
+          skillName: "AWS",
+          iconifyTag: "logos:aws",
         },
         {
           skillName: "Github",
@@ -91,7 +91,7 @@ export const skillsSection: SkillsSectionType = {
 export const SkillBars: SkillBarsType[] = [
   {
     Stack: "Frontend/Design", //Insert stack or technology you have experience in
-    progressPercentage: "85", //Insert relative proficiency in percentage
+    progressPercentage: "65", //Insert relative proficiency in percentage
   },
   {
     Stack: "Backend",
@@ -105,109 +105,110 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: "University of Central Punjab",
+    schoolName: "Southern Illinois University",
     subHeader: "Bachelor of Science in Computer Science",
-    duration: "September 2017 - April 2020",
-    desc: "",
-    grade: "Grade A",
-    descBullets: [], // Array of Strings
+    duration: "September 2015 - April 2019",
+    desc: "Focused on Advanced Machine Learning, Systems Architecture, Network Security, Data Structures and Algorithms.",
+    grade: "3.7/4",
+    descBullets: [
+      "Advanced Machine Learning",
+      "Systems Architecture",
+      "Network Security",
+      "Data Structures and Algorithms",
+    ],
+  },
+  {
+    schoolName: "Lewis and Clark Community College, USA",
+    subHeader: "Associate in Computer Information Systems",
+    duration: "2013 - 2015",
+    grade: "3.8/4",
+    desc: "Courses included Introduction to Programming, Database Management Systems, Web Development Fundamentals, Network Fundamentals.",
+    descBullets: [
+      "Introduction to Programming",
+      "Database Management Systems",
+      "Web Development Fundamentals",
+      "Network Fundamentals",
+    ],
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: "Django Developer",
-    company: "Meganos Software",
-    companyLogo: "/img/icons/common/meganos.png",
-    date: "Aug 2022 - Present",
-    desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.",
+    role: "Product Manager",
+    company: "Plastic Minds",
+    companyLogo: "/img/icons/common/plasticmind.png",
+    date: "Jan 2024 - Present",
+    desc: "Leading product development teams in the creation of AI-driven tools and applications, focusing on user-centered design and market fit.",
   },
   {
-    role: "Full Stack Developer",
-    company: "Duseca Software",
-    companyLogo: "/img/icons/common/duseca_software_logo.jpeg",
-    date: "Jan 2022 - Sept 2023",
-    desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    role: "Solutions Architect",
+    company: "Namastex Labs",
+    companyLogo: "/img/icons/common/namastex.png",
+    date: "Jan 2022 - Present",
+    desc: "Designed scalable solutions integrating cloud services, AI, and full-stack development across various platforms to drive business solutions and innovation.",
   },
   {
-    role: "Full Stack Developer",
-    company: "ZRTechnologies",
-    companyLogo: "/img/icons/common/zrtech.jpeg",
-    date: "Aug 2022 - Jun 2023",
-    desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
-  },
-  {
-    role: "Backend Developer",
-    company: "Bleed-AI",
-    companyLogo: "/img/icons/common/bleedAI.jpg",
-    date: "Sept 2021 - Oct 2021",
-    desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
+    role: "Data Engineer",
+    company: "Agora",
+    companyLogo: "/img/icons/common/agora.png",
+    date: "Jan 2023 - Feb 2024",
+    desc: "Developed and optimized ETL pipelines for SMEs, enhancing data accessibility and integrity, and supporting advanced data analysis capabilities.",
   },
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: "developer-portfolio",
-    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/1hanzla100/developer-portfolio",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
+    name: "dspy-self-discover-framework",
+    desc: "Extended and improved an existing self-discovery framework using DSPy, FastAPI, and the Groq platform, focusing on structured reasoning and dynamic code execution.",
+    github: "https://github.com/jmanhype/dspy-self-discover-framework",
+    link: "https://github.com/jmanhype/dspy-self-discover-framework",
   },
   {
-    name: "Giebo",
-    desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
-    link: "https://gibeo.io/",
+    name: "Storm",
+    desc: "Created a sophisticated content generation and question-answering system integrating DSPy framework, Groq, GPT-4, Weaviate, and Zep.",
+    link: "https://github.com/jmanhype/Storm",
   },
   {
-    name: "O Mejor Oferta",
-    desc: "O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need.",
-    link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
+    name: "Proto",
+    desc: "Built an end-to-end conversational AI system integrating STT, TTS, VAD, and LLM components for real-time audio processing and interactive conversations.",
+    link: "https://github.com/jmanhype/Proto",
   },
   {
-    name: "Hooligan Culture",
-    desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
-    link: "https://hooliganculture.com/",
+    name: "WebEnhancer",
+    desc: "Designed a web scraping and automation tool using Selenium and BeautifulSoup, integrating AI to improve web interaction accuracy.",
+    link: "https://github.com/jmanhype/WebEnhancer",
   },
 ];
 
 export const feedbacks: FeedbackType[] = [
   {
-    name: "Syed Jamal",
-    role: "Frontend Developer at Meganos Software",
+    name: "Cezar Vasconcelos",
+    role: "CTO at Namastex Labs",
     feedback:
-      "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Hanzla is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
+      "Straughter has been a key player in our team, architecting scalable solutions that integrate seamlessly across diverse platforms. His expertise in AI and cloud technologies has significantly driven our projects forward, making critical improvements in both efficiency and innovation.",
   },
   {
-    name: "Wajahat Malek",
-    role: "CEO at Duseca Software",
+    name: "Phillipe Kung",
+    role: "Director of Technology at Plastic Minds",
     feedback:
-      "Hanzla has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. Hanzla is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend Hanzla for any Full Stack Django, React.js, or Blockchain development projects, and I wish him all the best in his future endeavors.",
-  },
-  {
-    name: "Zaid Zaffar",
-    role: "CEO at ZR Technologies",
-    feedback:
-      "Very skilled at what he does and has an in depth knowledge of Django and he's always ready to handle any challenges thrown at him. He's been a valuable member of my team and i look forward to working with him in the years to come",
-  },
+      "Straughter is a visionary in AI-driven application development. His leadership and deep understanding of full-stack technologies have been fundamental in developing cutting-edge products that position our company at the forefront of technological innovation. His ability to lead and inspire our development teams has been remarkable."
+  }
 ];
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: "Hanzla Tauqeer",
-  description: greetings.description,
-  author: "Hanzla Tauqeer",
-  image: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  url: "https://developer-portfolio-1hanzla100.vercel.app",
+  title: "Straughter Guthrie",
+  description: "Versatile and self-driven professional with extensive experience in AI architecture and full-stack software development.",
+  author: "Straughter Guthrie",
+  image: "https://avatars.githubusercontent.com/u/jmanhype?v=4", // Replace 'yourGithubProfileID' with actual GitHub profile ID if different
+  url: "https://developer-portfolio-yourdomain.com", // Update with actual portfolio URL
   keywords: [
-    "Hanzla",
-    "Hanzla Tauqeer",
-    "@1hanzla100",
-    "1hanzla100",
-    "Portfolio",
-    "Hanzla Portfolio ",
-    "Hanzla Tauqeer Portfolio",
+    "Straughter Guthrie",
+    "Full-Stack Developer",
+    "AI Architect",
+    "Data Engineer",
+    "Solutions Architect",
+    "Product Manager",
   ],
 };
+
