@@ -26,7 +26,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:straughterguthrie.guthrie@namastex.io",
+  email: "mailto:straughterguthrie@quickcolbert.com",
   linkedin: "https://www.linkedin.com/in/straughter-guthrie-98ba0535/",
   github: "https://github.com/jmanhype",
   // instagram: "https://www.instagram.com/__hanzla100",
